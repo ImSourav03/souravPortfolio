@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="icon" href="./images/book.svg" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <style>
+        body{
+            background-color: #F7F1E5;
+        }
+        .container{
+            display:inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+     .center 
+     {
+        border-radius: 20%;
+        background-color:  #E7B10A;
+         position: absolute;
+        top: 50%;
+        left: 50%;
+         width: 1200px;
+         height: 500px;
+         transform: translate(-50%, -50%);
+        padding: 50px;
+        }
+        #mainHeading{
+            color: #4e4600;
+            font-family: 'Russo One', sans-serif;
+        }
+        .content{
+            height: 350px;
+            padding: 50px;
+            border-radius: 15%;
+            background-color: #F7F1E5;
+        }
+        p{
+            position: relative;
+            color: #774f0f;
+            font-family: 'Nunito', sans-serif;
+            font-size: 24px;
+            font-weight: 450;
+            text-align: justify;
+        }
+        .institute{
+            
+            font-weight: bolder;
+        }
+        .btns{
+            margin-top: 42rem;
+            margin-left: 45rem;
+        }
+     </style>
+</head>
+<body>
+    <div class="container center">
+        <div id="mainHeading"><h1> About me !</h1></div>
+        <div class="content">
+            <p>My name is <span class="institute">Sourav Kumar</span>. Currently i am a 3rd year undergraduate student, i am persuing <span id="myCourse">BCA</span> as my
+                bachleor degree from <span class="institute"> Amity University Jharkhand </span>. I have done my schooling from 
+                <span class="institute"> Lievens Academy lohardaga</span> and senior secondary (+2) studies from 
+                 <span class="institute">DAV HEHAL RANCHI</span>. I find my self as a quick learner and i am compassionate about the work that 
+                i do. My hobbies include driving, reading novels and watching web series. This is one of my first self made project i.e; Portfolio
+                that provides some information about me. I am learning web development as i love designing web pages. I hope you would like it.
+            </p>
+        </div> 
+        
+    </div>
+    <div class="btns">
+        <button onclick="window.location.href='./index.html'" type="button" class="btn btn-secondary">Home Page</button>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

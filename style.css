@@ -1,0 +1,70 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  #introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boldTxt{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .myPic{
+    border-radius: 10%;
+    height: 150px;
+  }
+  .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+    background-color: rgb(219, 194, 194);
+}
+  .introTxt{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    color: #580713;
+  }
+  .sourav{
+    font-size: 85px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    color: #340013;
+  }
+  .footerText{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .footerText:hover{
+    color:#340013;
+    border-radius: 10%;
+  }
+  .socialMedia{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  .socialApps{
+    color: black;
+    transition: transform .2s;
+  }
+  .socialApps:hover{
+    transform: scale(1.5);
+  }
